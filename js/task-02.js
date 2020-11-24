@@ -8,4 +8,4 @@ const createIngredientsList = ingredients.map((element) => {
 
 const ingredientsListRef = document.querySelector("#ingredients");
 ingredientsListRef.append(...createIngredientsList);
-console.groupCollapsed(ingredientsListRef);
+console.log(ingredientsListRef);
