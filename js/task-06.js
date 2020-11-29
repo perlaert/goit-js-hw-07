@@ -1,7 +1,7 @@
 const inputRef = document.querySelector("#validation-input");
 const validValue = Number(inputRef.dataset.length);
 
-inputRef.addEventListener("change", handleInputBlur);
+inputRef.addEventListener("blur", handleInputBlur);
 
 function handleInputBlur(event) {
   const currentValue = Number(inputRef.value.length);
